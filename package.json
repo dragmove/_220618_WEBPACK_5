@@ -1,0 +1,39 @@
+{
+  "name": "plaync-ranking-bns2",
+  "version": "0.0.1",
+  "description": "bns2 ranking service",
+  "private": true,
+  "scripts": {
+    "main": "webpack --config webpack.config.js --env service=main production",
+    "sub": "webpack --config webpack.config.js --env service=sub production",
+    "dev-main": "webpack serve --env service=main development",
+    "dev-sub": "webpack serve --env service=sub development",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.ncsoft.net/projects/FRONTEND_DEVELOP/repos/plaync-ranking"
+  },
+  "keywords": [
+    "ranking",
+    "bns2"
+  ],
+  "author": "NCSOFT : FE",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@types/lodash": "^4.14.195",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.1.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "SeoulHangangM";
+  src: url("./SeoulHangangM.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  font-family: "SeoulHangangM";
+  background: url("./winter.png");
+}
